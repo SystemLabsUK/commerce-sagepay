@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5019d641175ef204037ad79c8c96cef8",
+    "content-hash": "ea318937086738653fcb452a5e5f911c",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -2666,16 +2666,16 @@
         },
         {
             "name": "omnipay/sagepay",
-            "version": "4.0.1",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay-sagepay.git",
-                "reference": "292557420b52eaa3ff6b78ed514fb20fe952f6bc"
+                "reference": "1b079bdc6b18332dd3d019d46d08feea80fbb133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-sagepay/zipball/292557420b52eaa3ff6b78ed514fb20fe952f6bc",
-                "reference": "292557420b52eaa3ff6b78ed514fb20fe952f6bc",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-sagepay/zipball/1b079bdc6b18332dd3d019d46d08feea80fbb133",
+                "reference": "1b079bdc6b18332dd3d019d46d08feea80fbb133",
                 "shasum": ""
             },
             "require": {
@@ -2683,6 +2683,7 @@
                 "php": "^7.3|^8"
             },
             "require-dev": {
+                "http-interop/http-factory-guzzle": "^1.2",
                 "omnipay/tests": "^4.1",
                 "phpspec/prophecy-phpunit": "^2.0",
                 "squizlabs/php_codesniffer": "^3"
@@ -2730,9 +2731,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/omnipay-sagepay/issues",
-                "source": "https://github.com/thephpleague/omnipay-sagepay/tree/4.0.1"
+                "source": "https://github.com/thephpleague/omnipay-sagepay/tree/4.1.1"
             },
-            "time": "2022-03-08T16:06:46+00:00"
+            "time": "2023-11-15T16:47:47+00:00"
         },
         {
             "name": "opis/closure",
@@ -7292,5 +7293,5 @@
         "php": ">=7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
